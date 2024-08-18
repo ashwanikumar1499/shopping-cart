@@ -16,21 +16,15 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Shopping Cart Project
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project is a shopping cart application built with Next js. It allows users to add and remove products, apply coupon codes, and features persistent state management using Zustand.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Add Products:** Users can add products to their shopping cart.
+- **Remove Products:** Users can remove products from their cart.
+- **Apply Coupon Codes:** Users can apply coupon codes to get discounts. Use the codes `SAVE10` or `SAVE20` to see the changes.
+- **Persistent State:** The state of the cart is managed persistently using Zustand.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
